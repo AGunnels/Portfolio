@@ -4,9 +4,23 @@ padding: 0px;
 height: 100%;
 width: 100%;
 }
+#home h2{
+    padding-top: 50px;
+    color: rgb(0, 7, 12);
+    text-shadow:
+     -1px -1px 0 rgb(243, 237, 237),  
+      1px -1px 0 rgb(245, 241, 241),
+      -1px 1px 0 rgb(250, 247, 247),
+       1px 1px 0 rgb(245, 242, 242);
+}
 
 #home li {
-    color: firebrick;
+    color: rgb(26, 137, 211);
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
     font-weight: bold;
 }
 #home h1{
@@ -15,6 +29,12 @@ padding-bottom: 20px;
 }
 #home h3{
     font-weight: bold;
+    color: rgb(235, 242, 247);
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 #DB{
     color: bisque;
@@ -28,9 +48,7 @@ padding-bottom: 20px;
 #deploy{
     color: bisque;
 }
-#capable{
-    padding-top: 50px;
-}
+
 .jumbotron {
 margin-top: 0 px;
 background-size: cover;
@@ -131,7 +149,7 @@ border: solid rgb(118, 119, 119);
 #aboutHeader {
     background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: rgb(50, 53, 52); 
     margin-top: 0px;
     height:100%;
     width: 100%;
@@ -157,8 +175,13 @@ opacity: 0.89;
 #bio{
 display:flex;
 font-family: 'Raleway', sans-serif;
-color: white;
-font-size: 1.25em;
+color: rgb(26, 137, 211);
+text-shadow:
+ -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+font-size: 20px;
 max-width: 800px;
 flex-flow: row wrap;
 justify-content: space-around;
@@ -169,6 +192,12 @@ justify-content: space-around;
 font-family: 'Raleway', sans-serif;
 align-items: center;
 flex-flow: row wrap;
+color: rgb(26, 137, 211);
+text-shadow:
+ -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 
 .sidebar{
