@@ -1,0 +1,157 @@
+html,body {
+margin: 0px;
+padding: 0px;
+height: 100%;
+width: 100%;
+}
+
+#home h1{
+margin-top: 0px;
+}
+
+.jumbotron {
+margin-top: 0 px;
+background-size: cover;
+position: relative;
+}
+
+#home-nav{
+margin-bottom: 0px;
+}
+
+#landing-page{
+background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
+height: 100%;
+width: 100%;
+z-index: 1000;  
+margin: auto;
+position: absolute;
+background-size: cover;
+}
+
+.inner {
+vertical-align: middle;
+width: 100%;
+max-width: none;
+text-align: center;
+color: rgb(118, 119, 119);
+margin: 0 auto;
+padding-top: 10%;
+font-family: 'Raleway', sans-serif;
+}
+
+#landing-page .inner h1{
+font-family: 'Raleway', sans-serif;
+font-size: 600%;
+font-weight: 100;
+color: rgb(118, 119, 119);
+line-height: 75%;
+position: relative;
+}
+
+#front-button{
+position: relative;
+font-family: 'Raleway', sans-serif;
+font-size: 135%;
+font-weight: 400;
+color: rgb(50, 53, 52); 
+border:solid rgb(70, 85, 78);
+border-width: 2px;
+text-transform: uppercase;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 9px;
+background-color: transparent;
+}   
+#front-button:hover{
+color: rgb(118, 119, 119);
+border: solid rgb(118, 119, 119);
+}
+
+#home {
+ background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
+font-family: 'Raleway', sans-serif;
+height:100%;
+width: 100%;
+margin: auto;
+background-size: cover;
+}
+
+.caption{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.caption .btn-primary {
+color: rgb(50, 53, 52); 
+border:solid rgb(70, 85, 78);
+border-width: 2px;
+text-transform: uppercase;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 9px;
+background-color: transparent;
+margin-bottom: 20px;
+}
+
+/*How do I apply the hover property like I did for the #front-button*/
+.caption .btn-primary:hover{
+background-color: rgb(118, 119, 119);
+border: solid rgb(118, 119, 119);
+}
+
+.captain p{
+    text-align: center;
+}
+
+#aboutHeader {
+    background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-top: 0px;
+    height:100%;
+    width: 100%;
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+#aboutHeader h1{
+font-size: 600%;
+font-weight: 100;
+}
+
+#headshot{
+height: 200px;
+width: 200px;
+opacity: 0.89;
+}
+
+#bio{
+display:flex;
+font-family: 'Raleway', sans-serif;
+color: white;
+font-size: 1.25em;
+max-width: 800px;
+flex-flow: row wrap;
+justify-content: space-around;
+
+}
+
+#connect{
+font-family: 'Raleway', sans-serif;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.sidebar{
+margin-bottom: 50px;
+font-family: 'Raleway', sans-serif;
+color: white;
+align-items: center;
+}
